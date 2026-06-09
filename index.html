@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https://transparenttextures.com https://lucide.dev; connect-src 'self' https://api.github.com https://www.google-analytics.com;" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AutoMind - Your Personal Autonomous AI Workforce</title>
+    <meta name="description" content="Privacy-preserving desktop AI agent powered by local LLMs. Automate workflows, analyze data, and orchestrate multiple agents directly on your machine." />
+    <meta name="theme-color" content="#0A0A0A" />
+
+    <!-- Google Analytics placeholder -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=%VITE_GA_TRACKING_ID%"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      // Config is handled via src/utils/analytics.js to allow env var usage
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://automind.dev/" />
+    <meta property="og:title" content="AutoMind - Your Personal Autonomous AI Workforce" />
+    <meta property="og:description" content="Privacy-preserving desktop AI agent powered by local LLMs. Automate workflows, analyze data, and orchestrate multiple agents directly on your machine." />
+    <meta property="og:image" content="https://automind.dev/og-image.jpg" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://automind.dev/" />
+    <meta property="twitter:title" content="AutoMind - Your Personal Autonomous AI Workforce" />
+    <meta property="twitter:description" content="Privacy-preserving desktop AI agent powered by local LLMs. Automate workflows, analyze data, and orchestrate multiple agents directly on your machine." />
+    <meta property="twitter:image" content="https://automind.dev/og-image.jpg" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
